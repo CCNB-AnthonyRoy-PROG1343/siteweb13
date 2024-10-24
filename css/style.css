@@ -38,12 +38,35 @@ body {
     padding: 20px;
 }
 
+.navg ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.navg ul > li {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .navd {
     background-color: #2f2f2f;
     width: 300px;
     padding: 20px;
 }
 
+.navd ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.navd ul > li {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 #container {
     background-color: #2f2f2f;
