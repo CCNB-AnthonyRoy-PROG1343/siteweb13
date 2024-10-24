@@ -5,114 +5,121 @@
     <meta charset="UTF-8">
     <title>Siteweb 13</title>
     <link type="text/css" rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body style="padding:25px;">
-
-    <!-- Navigation -->
-    <nav class="navigation">
-        <img src="/imgs/cube.png">
-        <a href="#">Mon Office 365</a>
-        <a href="#">Mon Apprentissage</a>
-        <a href="#">Mon dossier étudiant</a>
-        <a href="#">Mon profil étudiant</a>
-    </nav>
-
-    <!-- Layout / Flexbox -->
+<body>
     <div class="layout">
+        <!-- Navigation -->
+        <nav class="navigation">
+            <img src="/imgs/cube.png">
+            <a href="#"><i class="fa-brands fa-microsoft"></i> Mon Office 365</a>
+            <a href="#"><i class="fa-solid fa-graduation-cap"></i> Mon Apprentissage</a>
+            <a href="#"><i class="fa-solid fa-folder-open"></i> Mon dossier étudiant</a>
+            <a href="#"><i class="fa-solid fa-user"></i> Mon profil étudiant</a>
+        </nav>
 
-        
-        <!-- Navigation de gauche -->
-        <div class="navg">
-            <h2>
-                Vie collégiale
-            </h2>
-            <hr class="ligne">
-            <br>
-            <ul>
-                <li><i class="fa-solid fa-angle-right"></i> Agenda collégial</li>
-                <li><i class="fa-solid fa-angle-right"></i> Conseil d'administration de l'association étudiante</li>
-                <li><i class="fa-solid fa-angle-right"></i> Bottin</li>
-                <li><i class="fa-solid fa-angle-right"></i> Calendrier collégial 2024-2025</li>
-                <li><i class="fa-solid fa-angle-right"></i> Inscription virtuelle du 6 au 23 aout 2024</li>
-                <li><i class="fa-solid fa-angle-right"></i> Covoiturage</li>
-                <li><i class="fa-solid fa-angle-right"></i> L'équité, la diversité et l'inclusion</li>
-            </ul>
+
+
+        <!-- Layout / Flexbox -->
+        <div class="flexbox-container">
+
+
+            <!-- Navigation de gauche -->
+            <div class="navg">
+                <h2>
+                    <i class="fa-solid fa-graduation-cap"></i> Vie collégiale
+                </h2>
+                <hr class="ligne">
+                <br>
+                <ul>
+                    <li><i class="fa-solid fa-angle-right"></i> Agenda collégial</li>
+                    <li><i class="fa-solid fa-angle-right"></i> Conseil d'administration de l'association étudiante</li>
+                    <li><i class="fa-solid fa-angle-right"></i> Bottin</li>
+                    <li><i class="fa-solid fa-angle-right"></i> Calendrier collégial 2024-2025</li>
+                    <li><i class="fa-solid fa-angle-right"></i> Inscription virtuelle du 6 au 23 aout 2024</li>
+                    <li><i class="fa-solid fa-angle-right"></i> Covoiturage</li>
+                    <li><i class="fa-solid fa-angle-right"></i> L'équité, la diversité et l'inclusion</li>
+                </ul>
+            </div>
+
+            <!-- Contenu de la page -->
+            <div id="container">
+                <h1 id="titre">Page web</h1>
+                <p>
+                    asdjakldskljasdjkasdkjasdkjasdjkas dakjs dakjdkj asdkjaskj daskjdakj djk<br>
+                    a dkjdkjadkjasdkjasdkjasdkjadkjasdkjdd
+                </p>
+                <table class="tableaux">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Item</th>
+                            <th>Quantité</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="4">
+                                1492
+                            </td>
+                            <td>Pumpkin</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td>Apple</td>
+                            <td>583</td>
+                        </tr>
+                        <tr>
+                            <td>Trains</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                N/A
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5555</td>
+                            <td>Apple Watch</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>5893 (Cancelled)</td>
+                            <td colspan="2">
+                                -
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Navigation de droite -->
+            <div class="navd">
+                <h2>
+                    <i class="fa-solid fa-gears"></i> Services
+                </h2>
+                <hr class="ligne">
+                <br>
+                <ul>
+                    <li><i class="fa-solid fa-angle-right"></i> Aide à la réussite</li>
+                    <li><i class="fa-solid fa-angle-right"></i> Informatique</li>
+                    <li><i class="fa-solid fa-angle-right"></i> Logements</li>
+                </ul>
+            </div>
+
+
         </div>
 
-        <!-- Contenu de la page -->
-        <div id="container">
-            <h1 id="titre">Page web</h1>
-            <p>
-                asdjakldskljasdjkasdkjasdkjasdjkas dakjs dakjdkj asdkjaskj daskjdakj djk<br>
-                a dkjdkjadkjasdkjasdkjasdkjadkjasdkjdd
-            </p>
-            <table class="tableaux">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Item</th>
-                        <th>Quantité</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="4">
-                            1492
-                        </td>
-                        <td>Pumpkin</td>
-                        <td>27</td>
-                    </tr>
-                    <tr>
-                        <td>Apple</td>
-                        <td>583</td>
-                    </tr>
-                    <tr>
-                        <td>Trains</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            N/A
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>5555</td>
-                        <td>Apple Watch</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>5893 (Cancelled)</td>
-                        <td colspan="2">
-                            -
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
 
-        <!-- Navigation de droite -->
-        <div class="navd">
-            <h2>
-                Services
-            </h2>
-            <hr class="ligne">
-            <br>
-            <ul>
-                <li><i class="fa-solid fa-angle-right"></i> Aide à la réussite</li>
-                <li><i class="fa-solid fa-angle-right"></i> Informatique</li>
-                <li><i class="fa-solid fa-angle-right"></i> Logements</li>
-            </ul>
-        </div>
-
+        <!-- Footer -->
+        <footer>
+            <p>Copyright Anthony Roy - 2024; Recréation du cube</p>
+        </footer>
 
     </div>
-
-    <!-- Footer -->
-    <footer>
-        <p>Copyright Anthony Roy - 2024; Recréation du cube</p>
-    </footer>
 </body>
 
 </html>
