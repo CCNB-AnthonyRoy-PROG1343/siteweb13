@@ -17,10 +17,10 @@ body {
 }
 
 .nav-liens {
-    display: inline-block;
+    float: right;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
 }
 
 .nav-liens li > a {
