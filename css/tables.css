@@ -1,0 +1,44 @@
+body {
+    background-color: #1f1f1f;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #0077ff;
+    display: flex;
+    align-items: center;
+
+    gap: 25px;
+    padding: 10px 25px;
+}
+
+.nav h2 {
+    margin: 0;
+}
+
+.nav-liens {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-liens li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-liens li {
+    display: inline;
+    margin: 0px 25px;
+}
+
+h2.test {
+    color: red;
+}
+
+p:nth-child(2) {
+    color: green;
+}
