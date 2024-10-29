@@ -34,10 +34,15 @@ body {
     margin: 0px 25px;
 }
 
-h2.test {
-    color: red;
+.container {
+    padding: 25px;
 }
 
-p:nth-child(2) {
-    color: green;
+table {
+    width: 75%;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
 }
