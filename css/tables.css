@@ -7,18 +7,17 @@ body {
 
 .nav {
     background-color: #0077ff;
-    display: flex;
     align-items: center;
-
-    gap: 25px;
     padding: 10px 25px;
 }
 
 .nav h2 {
+    display: inline-block;
     margin: 0;
 }
 
 .nav-liens {
+    display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 0;
